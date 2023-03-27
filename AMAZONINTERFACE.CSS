@@ -1,0 +1,112 @@
+
+
+@import
+ url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'poppins', sans-serif;
+}
+/*variable*/
+:root{
+    --major-bg-color:#131921;
+    --minor-bg-color:#ebeded;
+    --amazon-major-color:#febd68;
+}
+/*body*/
+body{
+    background-color: var(--minor-bg-color);
+}
+
+/*Header*/
+.header{
+    height:50px;
+    width:100%;
+    background-color: var(--major-bg-color);
+    display:flex;
+    justify-content: center;
+}
+.header .nav-header{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.header .nav-header .header-container{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav-header .header-container .amazon-logo{
+    width: 100px;
+}
+
+.search-button{
+    width:40px;
+    height:42px; /*position:absolute;
+     top:"1px"; */
+    padding:1px 10px;
+    background-color:var(--amazon-major-color);
+    border:1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color:#232323;
+    align-items: center;
+    margin-top: 2px;
+}
+.header-cart{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    width: 40px;
+    height: 40px;
+}
+/*section-1*/
+.section-1 {
+    width:100%;
+    height:auto;
+    background: url('https://m.media-amazon.com/images/I/71AU5IQP05L._SX3000_.jpg');
+    background-size: cover;
+    display: flex;
+   
+}
+.section-1-container {
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.section-1-column{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+img{
+    margin-top: 20px;
+    width: 100%;
+    height:auto;
+}
+p{
+    margin-top: 10px;
+    font-size: 14px;
+    color:#007185;
+}
+button{
+    margin-top: 20px;
+    width:100%;
+    border:none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--amazon-major-color);
+}
